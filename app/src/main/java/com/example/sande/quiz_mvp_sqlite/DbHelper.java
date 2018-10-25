@@ -9,7 +9,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "DbHelper";
     private static final String DATABASE_NAME = "quiz.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 5;
 
     final String sql = " CREATE TABLE " +
             QuestionsTable.TABLE_NAME + " ( " +

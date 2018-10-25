@@ -20,7 +20,8 @@ public class QuizActivity extends AppCompatActivity implements QuizContract.View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
         presenter = new QuizPresenter(this);
-        //presenter.insert(); // to fill the database
+
+        presenter.insert(); // to fill the database
 
         question = findViewById(R.id.tView_question);
         cb1 = findViewById(R.id.checkBox);
